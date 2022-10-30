@@ -12,7 +12,9 @@ The bees front-end challenge, we first "authenticate" into the page with full na
 # Project choices
 
 * ReactJS
-* React router dom
+* ReactDOM
+* Brewery API
+* CSS
 
 # Folder structures
 
