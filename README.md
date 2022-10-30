@@ -11,22 +11,12 @@ The bees front-end challenge, we first "authenticate" into the page with full na
 
 # Project choices
 
-* React hooks.
-* CSS for styling.
-* Components
-* Javascript
+* ReactJS
+* React router dom
 
 # Folder structures
 
 Tried to organize everything, specially components by separating them into folders to be easily accessible and understandable.
-
-# Used technologies
-
-* HTML/CSS
-* Javascript
-* React
-* VSCode
-
 
 # How to access the project
 
