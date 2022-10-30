@@ -41,4 +41,13 @@
     height: auto;
 }
 
+@media (max-width: 940px) {
+    .brewrie-container {
+        justify-content: center;
+        padding: 50px;
+        background-color:#fffef0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 

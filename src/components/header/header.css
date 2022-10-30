@@ -30,3 +30,17 @@ body {
     margin-left: 10px;
 }
 
+.headerReturn:visited {
+    color: unset;
+}
+
+@media (max-width: 500px) {
+    .headerReturn span {
+        display: none;
+    }
+
+    .name h1 {
+        font-size: 15px;
+    }
+}
+

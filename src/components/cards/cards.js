@@ -27,7 +27,7 @@ function Card(props) {
         <div className="brew-card" key={beers.id}>
 
           <div className="delete-icon">
-            <img src={Img} onClick={() => removeCard(index)} />
+            <img src={Img} alt="delete" onClick={() => removeCard(index)} />
           </div>
 
           <div className="card-header">
