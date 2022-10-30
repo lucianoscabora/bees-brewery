@@ -21,8 +21,7 @@ Tried to organize everything, specially components by separating them into folde
 # How to access the project
 
 After downloading the whole project, open on vscode and run those 2 lines below:
-``npm install
-``npm start
+``npm install and ``npm start
 
 ...or
 
