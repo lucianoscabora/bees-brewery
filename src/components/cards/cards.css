@@ -1,0 +1,44 @@
+.brewrie-container {
+    padding: 50px;
+    background-color:#fffef0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brew-card {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    border-radius: 4px;
+    min-height: 282px;
+    width: 382px;
+    margin: 20px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.card-header strong{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-address {
+    color: #3F3F46;
+    line-height: 26px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.delete-icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.delete-icon img {
+    width: 16px;
+    height: auto;
+}
+
+
