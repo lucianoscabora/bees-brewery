@@ -20,9 +20,9 @@ Tried to organize everything, specially components by separating them into folde
 
 # How to access the project
 
-After downloading the whole folder, open as a workspace on vscode and run:
-npm install
-npm start
+After downloading the whole project, open on vscode and run those 2 lines below:
+``npm install
+``npm start
 
 ...or
 
