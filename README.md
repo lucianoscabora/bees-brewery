@@ -11,10 +11,10 @@ The bees front-end challenge, we first "authenticate" into the page with full na
 
 # Project choices
 
-React hooks usage to get the most of React.
-Pure CSS to manage the pages styles.
-Components to use the most of React.
-Javascrip.
+* React hooks.
+* CSS for styling.
+* Components
+* Javascript
 
 # Folder structures
 
@@ -22,10 +22,10 @@ Tried to organize everything, specially components by separating them into folde
 
 # Used technologies
 
-HTML/CSS
-Javascript
-React
-VSCode
+* HTML/CSS
+* Javascript
+* React
+* VSCode
 
 
 # How to access the project
