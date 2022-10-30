@@ -9,12 +9,14 @@ import Img from '../../style/images/delete.png'
 function Card(props) {
   const [brew, setBrew] = useState([]);
 
+  //api to display 6 cards per page
   useEffect(() => {
     fetch('https://api.openbrewerydb.org/breweries?per_page=6')
       .then(response => response.json())
       .then(setBrew);
   }, []);
 
+  //remove card function
   const removeCard = index => {
     setBrew([...brew.filter(brews => brew.indexOf(brews) !== index)]);
   };

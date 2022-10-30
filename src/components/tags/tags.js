@@ -5,7 +5,7 @@ import telephone from '../../style/images/telephone.png'
 import local from '../../style/images/localization.png'
 import add from '../../style/images/add.png'
 
-
+//tags that should be showed into the project
 const Tags = (props) => {
     const [tags, setTags] = React.useState([
         {icon: graph, text: 'micro'},
@@ -14,7 +14,7 @@ const Tags = (props) => {
 
     ]);
 
-    // Add tags by using the key
+    // add tags function
     const handleTags =  event => {
         if (event.key === "Enter" && event.target.value !== "") {
             setTags([...tags, {icon: add, text: event.target.value}]);

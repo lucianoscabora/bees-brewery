@@ -10,16 +10,19 @@ const Home = () => {
     const [hasNameError, setHasNameError] = useState(true);
     let navigate = useNavigate();
 
+    //age check state
     const handleChange = event => {
         setIsChecked(current => !current);
     }
 
+    //data cleared after navigated to 2nd page
     const clearData = () => {
         setFullname('');
         setIsChecked(false);
         navigate(`/card/${fullname}`);
     }
 
+    //full name validation and without special characters
     const checkFullName = (evt) => {
         const checkedFullName = !!evt.match(/^[a-zA-Z]+(?:\s[a-zA-Z]+)+$/);
 
