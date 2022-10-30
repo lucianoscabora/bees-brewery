@@ -1,5 +1,5 @@
 import React from "react";
-import Tags from "../tags/tags";
+import Tags from "../Tags/tags";
 import './cards.css';
 import { useEffect, useState } from 'react';
 import Img from '../../style/images/delete.png'
