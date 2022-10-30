@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # BEES brewery front-end challenge
 
 ![bees-logo](https://user-images.githubusercontent.com/40004457/198902654-677d9a0e-bef4-4153-9056-9af0a6cc43c7.png)
@@ -39,10 +37,3 @@ npm start
 ...or
 
 use this link to access directly: https://bees-challenge.netlify.app/
-
-
-
-
-
-
->>>>>>> 34a067fd59e0b4f686989c083f517bf934e3438c
