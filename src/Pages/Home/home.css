@@ -1,4 +1,4 @@
-main {
+.whole-container {
     background-color: yellow;
     overflow: hidden;
     position: absolute;
@@ -7,6 +7,9 @@ main {
     display: flex;
     justify-content: center; /*centers items on the line (the x-axis by default)*/
     align-items: center; /*centers items on the cross-axis (y by default)*/
+    background-image: url('../../style/images/bees-logo.png');
+    background-repeat: no-repeat;
+    background-position: 5% 95%;
   }
   
   .main-container {
@@ -15,13 +18,16 @@ main {
       flex-direction: column;
   } 
   
-  .bees-img {
+  /*
+  .bees-logo {
+    background-image: url('../../style/images/bees-logo.png');
       position: absolute;
       width: 278px;
       height: 278px;
       left: 29px;
       top: 430px;
   }
+  */
 
   .initial-form {
     display: flex;
@@ -72,9 +78,12 @@ main {
     border-radius: 4px;
   }
 
-
-  
-
   .main-button:hover {
     opacity: 0.9;
   }
+
+  @media only screen and (max-width: 600px) {
+    main{
+      background-size: 190px;
+    }
+}

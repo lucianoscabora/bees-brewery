@@ -37,8 +37,10 @@ const Home = () => {
 
     return (
 
-        <main>
+        <main className="whole-container"> 
             <div className="main-container">
+            <div className="bees-logo">
+            </div>
                 <div className="initial-form">
                     <label htmlFor="">Please, enter your full name below</label>
                     <label htmlFor="">Only alphabetical characters are accepted</label>
@@ -52,7 +54,8 @@ const Home = () => {
                     Enter
                 </button>
             </div>
-            <img className="bees-img" src={beesLogo} alt="bees-logo" />
+            
+            
         </main>
     )
 }
