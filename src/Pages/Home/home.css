@@ -1,5 +1,6 @@
 .whole-container {
     background-color: yellow;
+    padding: 15px;
     overflow: hidden;
     position: absolute;
     width: 100%;
