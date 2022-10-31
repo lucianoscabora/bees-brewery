@@ -1,8 +1,6 @@
 import "./home.css"
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import beesLogo from '../../style/images/bees-logo.png'
-
 
 const Home = () => {
     const [fullname, setFullname] = useState('');
@@ -39,8 +37,6 @@ const Home = () => {
 
         <main className="whole-container"> 
             <div className="main-container">
-            <div className="bees-logo">
-            </div>
                 <div className="initial-form">
                     <label htmlFor="">Please, enter your full name below</label>
                     <label htmlFor="">Only alphabetical characters are accepted</label>

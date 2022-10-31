@@ -83,7 +83,7 @@
   }
 
   @media only screen and (max-width: 600px) {
-    main{
+    .whole-container{
       background-size: 190px;
     }
 }
