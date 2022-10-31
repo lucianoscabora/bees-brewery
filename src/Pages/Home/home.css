@@ -19,17 +19,6 @@
       flex-direction: column;
   } 
   
-  /*
-  .bees-logo {
-    background-image: url('../../style/images/bees-logo.png');
-      position: absolute;
-      width: 278px;
-      height: 278px;
-      left: 29px;
-      top: 430px;
-  }
-  */
-
   .initial-form {
     display: flex;
     justify-content: flex-start;
