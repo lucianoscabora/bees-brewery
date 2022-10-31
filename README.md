@@ -3,7 +3,7 @@
 ![bees-logo](https://user-images.githubusercontent.com/40004457/198902654-677d9a0e-bef4-4153-9056-9af0a6cc43c7.png)
 
 # Project Status
-:rocket: Finished! :rocket:
+:rocket: Finished! :rocket: But there are lots of room for improvement.
 
 # Project Description
 
@@ -12,7 +12,9 @@ The bees front-end challenge, we first "authenticate" into the page with full na
 # Project choices
 
 * ReactJS
-* React router dom
+* ReactDOM
+* Brewery API
+* CSS
 
 # Folder structures
 
@@ -20,9 +22,10 @@ Tried to organize everything, specially components by separating them into folde
 
 # How to access the project
 
-After downloading the whole folder, open as a workspace on vscode and run:
-npm install
-npm start
+After downloading the whole project, open on vscode and run those 2 lines below:
+
+* npm install
+* npm start
 
 ...or
 
