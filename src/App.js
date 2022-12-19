@@ -1,7 +1,6 @@
-import Header from "./Components/Header/header";
-import Card from "./Components/Cards/cards";
-import "./style/app.css"
-
+import Header from "./components/header/header";
+import Card from "./components/cards/cards";
+import "./style/app.css";
 
 function App() {
   return (
@@ -9,7 +8,6 @@ function App() {
       <Header />
       <Card />
     </div>
-
   );
 }
 

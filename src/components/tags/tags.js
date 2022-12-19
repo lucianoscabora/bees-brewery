@@ -6,12 +6,11 @@ import local from '../../style/images/localization.png'
 import add from '../../style/images/add.png'
 
 //tags that should be showed into the project
-const Tags = (props) => {
+const Tags = () => {
     const [tags, setTags] = React.useState([
         {icon: graph, text: 'micro'},
         {icon: local, text: '46534'},
         {icon: telephone, text: '6308165790'}
-
     ]);
 
     // add tags function
