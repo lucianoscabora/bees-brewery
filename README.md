@@ -20,7 +20,7 @@ The bees front-end challenge, we first "authenticate" into the page with full na
 
 Tried to organize everything, specially components by separating them into folders to be easily accessible and understandable.
 
-# How to access the project
+# How to view the project
 
 After downloading the whole project, open on vscode and run those 2 lines below:
 
